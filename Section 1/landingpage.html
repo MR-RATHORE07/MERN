@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+         background-image: url('https://images.ctfassets.net/4cd45et68cgf/637ArQo6YNsJf48Xw3zUAg/d030f9065a0fe54de777eaa600cf3fcb/N-Games_March_936x622.png');
+         height: 100vh;
+         background-size: cover;
+         background-position: center;
+         font-family: 'Courier New', Courier, monospace;
+        }
+        nav{
+            width: 100%;
+            height: 100px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+        }
+        .logo{
+            font-size: 2em;
+            color:rgb(244, 78, 78);
+            letter-spacing: 2px;
+        }
+        .menu a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            position: relative;
+        }
+        .menu a:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            border-bottom: 2px solid indianred;
+            transition: 0.4s initial;
+        }
+        .menu a:hover:before{
+            width: 90%;
+
+
+        }
+        .register a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            background: indianred;
+            border-radius: 8px;
+            transition: 0.4s;
+        }
+        .register a:hover{
+            background: transparent;
+            border:1px solid indianred;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                NETEFLIX 
+            </div>
+            <div class="menu">
+                <a href="#">HOME</a>
+                <a href="#">NEW RELEASES</a>
+                <a href="#">PREMIUM</a>
+                <a href="#">CONTACT US</a>
+                <a href="#">HELP CENTER</a>   
+            </div>
+          
+          
+        </nav>
+    </header>
+    
+</body>
+</html>

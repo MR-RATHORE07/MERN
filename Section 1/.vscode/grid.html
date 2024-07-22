@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GridImage</title>
+    <style>
+      .cotainer {
+        background-color: rgb(88, 143, 88);
+        height: 500px;
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 200px 200px;
+        grid-template-areas: repeat(4, 200px);
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        justify-content: center;
+      }
+      .item {
+        color: rgb(210, 30, 30);
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cotainer">
+      <div class="">Image1</div>
+      <div class="">Image2</div>
+      <div class="">Image3</div>
+      <div class="">Image4</div>
+    </div>
+  </body>
+</html>
